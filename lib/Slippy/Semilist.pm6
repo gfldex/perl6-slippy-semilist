@@ -3,7 +3,7 @@ use v6;
 multi sub postcircumfix:<{|| }>(\SELF, \indices) is raw is export {
     my $current = SELF;
     for indices {
-        if ! $current.EXISTS-KEY($_) || $current.AT-KEY($_) !~~ Hash {
+        if ! $current.EXISTS-KEY($_) {
             my $next = Hash.new;
             $current.BIND-KEY($_, $next);
         }
