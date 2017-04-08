@@ -2,7 +2,7 @@
   "name": "Slippy::Semilist",
   "source-url": "https://github.com/gfldex/perl6-slippy-semilist.git",
   "support": {
-    "source": null
+    "source": "https://github.com/gfldex/perl6-slippy-semilist"
   },
   "emulates": {
     
@@ -32,7 +32,7 @@
     
   ],
   "provides": {
-    
+    "Slippy::Semilist" : "lib/Slippy/Semilist.pm6"
   },
   "production": false,
   "version": "0.0.1",
@@ -42,6 +42,6 @@
   "authors": [
     "Wenzel P. P. Peppmeyer <wenzel.peppmeyer@gmx.de>"
   ],
-  "description": "",
+  "description": "Implement postcircumfix:<{|| }> to allow slipping Array as a multidim Hash key.",
   "meta6": "0"
 }
