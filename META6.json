@@ -2,7 +2,7 @@
   "name": "Slippy::Semilist",
   "source-url": "https://github.com/gfldex/perl6-slippy-semilist.git",
   "support": {
-    "source": "https://github.com/gfldex/perl6-slippy-semilist"
+    "source": "https://github.com/gfldex/perl6-slippy-semilist.git"
   },
   "emulates": {
     
